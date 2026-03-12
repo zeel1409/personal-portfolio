@@ -1,174 +1,294 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zeel Kadiya - Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <div class="profile-img"><img src="./123.jpg" alt=""></div>
-            <h1>Zeel kadiya</h1>
-            <p class="subtitle">Web Developer & Designer</p>
-            <a href="#projects" class="btn">View My Work</a>
-        </header>
+      <header>
+        <div class="profile-img"><img src="./123.jpg" alt="" /></div>
+        <h1>Zeel kadiya</h1>
+        <p class="subtitle">Web Developer & Designer</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </header>
 
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm a passionate web developer currently learning HTML, CSS, and JavaScript, and working toward
-                becoming a full-stack developer. I enjoy building simple and functional projects, and I'm always curious
-                about how technology can solve real-world problems.
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm a passionate web developer currently learning HTML, CSS,
+          and JavaScript, and working toward becoming a full-stack developer. I
+          enjoy building simple and functional projects, and I'm always curious
+          about how technology can solve real-world problems. I believe in
+          writing clean, maintainable code and creating user-friendly web
+          applications. I'm eager to keep improving my skills, explore modern
+          frameworks, and take on challenging projects that help me grow as a
+          developer.
+        </p>
+        <br />
+        <p>
+          I believe in writing clean, maintainable code and creating user
+          experiences that are both intuitive and engaging. I'm always eager to
+          learn new technologies and take on challenging projects that push my
+          boundaries.
+        </p>
+      </section>
 
-                I believe in writing clean, maintainable code and creating user-friendly web applications. I'm eager to
-                keep improving my skills, explore modern frameworks, and take on challenging projects that help me grow
-                as a developer.
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skill-item">
+            <h3>Frontend Development</h3>
+            <div class="skill-bars">
+              <!-- Attributes 'data-skill-name' are added to let app.js know these exist physically -->
+              <div class="skill-bar" data-skill-name="HTML5">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5 / CSS3</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="85"></div>
+                </div>
+              </div>
+              <div class="skill-bar" data-skill-name="JavaScript">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="80"></div>
+                </div>
+              </div>
+              <div class="skill-bar" data-skill-name="React JS">
+                <div class="skill-info">
+                  <span class="skill-name">React JS</span>
+                  <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="70"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3>Backend Development</h3>
+            <div class="skill-bars">
+              <div class="skill-bar" data-skill-name="Node.js">
+                <div class="skill-info">
+                  <span class="skill-name">Node.js / Express.js</span>
+                  <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="70"></div>
+                </div>
+              </div>
+              <div class="skill-bar" data-skill-name="REST APIs">
+                <div class="skill-info">
+                  <span class="skill-name">REST APIs / JSON</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="75"></div>
+                </div>
+              </div>
+              <div class="skill-bar" data-skill-name="Authentication">
+                <div class="skill-info">
+                  <span class="skill-name">Auth (JWT / Sessions)</span>
+                  <span class="skill-percent">60%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="60"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3>Design Tools</h3>
+            <p>Figma, Photoshop, Illustrator</p>
+          </div>
+          <div class="skill-item">
+            <h3>Database</h3>
+            <div class="skill-bars">
+              <div class="skill-bar" data-skill-name="MySQL">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL / Relational</span>
+                  <span class="skill-percent">50%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="50"></div>
+                </div>
+              </div>
+              <div class="skill-bar" data-skill-name="MongoDB">
+                <div class="skill-info">
+                  <span class="skill-name">MongoDB (NoSQL)</span>
+                  <span class="skill-percent">40%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="40"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3>Other Skills</h3>
+            <div class="skill-bars">
+              <div class="skill-bar" data-skill-name="Responsive Design">
+                <div class="skill-info">
+                  <span class="skill-name">Responsive Design</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="90"></div>
+                </div>
+              </div>
+              <div class="skill-bar" data-skill-name="Tools">
+                <div class="skill-info">
+                  <span class="skill-name">Git, VS Code, Postman</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-fill" data-level="75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <h3>Simple Chat Application</h3>
+            <p>
+              A lightweight and responsive real-time chat application built
+              using HTML, CSS, and JavaScript. The app allows users to send and
+              receive messages instantly with a clean user interface. Features
+              include message display, auto-scroll, and user-friendly design.
+              Future improvements may include user authentication, online
+              status, and database integration.
             </p>
-            <br>
-            <p>I believe in writing clean, maintainable code and creating user experiences that are both intuitive and
-                engaging. I'm always eager to learn new technologies and take on challenging projects that push my
-                boundaries.</p>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="skill-item">
-                    <h3>Frontend Development</h3>
-                    <div class="skill-bars">
-                        <!-- Attributes 'data-skill-name' are added to let app.js know these exist physically -->
-                        <div class="skill-bar" data-skill-name="HTML5">
-                            <div class="skill-info">
-                                <span class="skill-name">HTML5 / CSS3</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-progress-fill" data-level="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar" data-skill-name="JavaScript">
-                            <div class="skill-info">
-                                <span class="skill-name">JavaScript</span>
-                                <span class="skill-percent">80%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-progress-fill" data-level="80"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar" data-skill-name="React JS">
-                            <div class="skill-info">
-                                <span class="skill-name">React JS</span>
-                                <span class="skill-percent">70%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-progress-fill" data-level="70"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <h3>Backend Development</h3>
-                    <p>Node.js, Express.js, REST APIS, CRUD operations, JSON</p><br>
-                </div>
-                <div class="skill-item">
-                    <h3>Design Tools</h3>
-                    <p>Figma, Photoshop, Illustrator</p>
-                </div>
-                <div class="skill-item">
-                    <h3>Database</h3>
-                    <p>MySQL, Database currently Learning..</p>
-                </div>
-                <div class="skill-item">
-                    <h3>Other Skills</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar" data-skill-name="Responsive Design">
-                            <div class="skill-info">
-                                <span class="skill-name">Responsive Design</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-progress-fill" data-level="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar" data-skill-name="Tools">
-                            <div class="skill-info">
-                                <span class="skill-name">Git, VS Code, Postman</span>
-                                <span class="skill-percent">75%</span>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="skill-progress-fill" data-level="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="project-links">
+              <a
+                href="https://zeel1409.github.io/Chat-App/"
+                target="_blank"
+                class="project-link demo-link"
+                >Live Demo</a
+              >
             </div>
-        </section>
+          </div>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project">
-                    <h3>Simple Chat Application</h3>
-                    <p>A lightweight and responsive real-time chat application built using HTML, CSS, and JavaScript.
-                        The app allows users to send and receive messages instantly with a clean user interface.
-                        Features include message display, auto-scroll, and user-friendly design. Future improvements may
-                        include user authentication, online status, and database integration.</p>
-                </div>
-
-                <div class="project">
-                    <h3>Portfolio Website</h3>
-                    <p>A modern, animated portfolio website showcasing creative projects with smooth transitions and
-                        interactive elements.</p>
-                </div>
+          <div class="project">
+            <h3>Document Signature App</h3>
+            <p>
+              A web-based application designed to allow users to digitally sign
+              documents with ease. Built with modern web technologies to handle
+              smooth signature rendering and capture, providing a secure and
+              intuitive user experience.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://fanciful-cupcake-11cd4a.netlify.app/login"
+                target="_blank"
+                class="project-link demo-link"
+                >Live Demo</a
+              >
             </div>
-        </section>
+          </div>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <div class="contact-info">
-                <!-- ✨ IMPROVED: Added data attributes for better performance (optional) -->
-                <div class="contact-item" data-type="email" data-value="kadiyazeel@gmail.com">
-                    <h3>Email</h3>
-                    <a href="mailto:kadiyazeel@gmail.com">kadiyazeel@gmail.com</a>
-                </div>
-                <div class="contact-item" data-type="phone" data-value="+916356125457">
-                    <h3>Phone</h3>
-                    <a href="tel:+916356125457">6356125457</a>
-                </div>
-                <div class="contact-item" data-type="linkedin" data-value="https://www.linkedin.com/in/zeel-kadiya-5733a7349">
-                    <h3>LinkedIn</h3>
-                    <a href="https://www.linkedin.com/in/zeel-kadiya-5733a7349" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/zeel-kadiya-5733a7349</a>
-                </div>
-                <div class="contact-item" data-type="github" data-value="https://github.com/zeel1409">
-                    <h3>GitHub</h3>
-                    <a href="https://github.com/zeel1409" target="_blank" rel="noopener noreferrer">https://github.com/zeel1409</a>
-                </div>
+          <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>
+              A modern, animated portfolio website showcasing creative projects
+              with smooth transitions and interactive elements.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-link demo-link"
+                >Live Demo</a
+              >
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <footer>
-            <p>&copy; 2025 Zeel Kadiya. All rights reserved.</p>
-        </footer>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <!-- ✨ IMPROVED: Added data attributes for better performance (optional) -->
+          <div
+            class="contact-item"
+            data-type="email"
+            data-value="kadiyazeel@gmail.com"
+          >
+            <h3>Email</h3>
+            <a href="mailto:kadiyazeel@gmail.com">kadiyazeel@gmail.com</a>
+          </div>
+          <div
+            class="contact-item"
+            data-type="phone"
+            data-value="+916356125457"
+          >
+            <h3>Phone</h3>
+            <a href="tel:+916356125457">6356125457</a>
+          </div>
+          <div
+            class="contact-item"
+            data-type="linkedin"
+            data-value="https://www.linkedin.com/in/zeel-kadiya-5733a7349"
+          >
+            <h3>LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/zeel-kadiya-5733a7349"
+              target="_blank"
+              rel="noopener noreferrer"
+              >www.linkedin.com/in/zeel-kadiya-5733a7349</a
+            >
+          </div>
+          <div
+            class="contact-item"
+            data-type="github"
+            data-value="https://github.com/zeel1409"
+          >
+            <h3>GitHub</h3>
+            <a
+              href="https://github.com/zeel1409"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://github.com/zeel1409</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          &copy; <span id="current-year">2025</span> Zeel Kadiya. All rights
+          reserved.
+        </p>
+      </footer>
     </div>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
